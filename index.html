@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated-Fashion-web-page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div class="page" id="home">
+        <div class="back">
+            <video src="images/home img/home1.mp4" autoplay muted loop></video>
+            <img src="images/home img/hero3.jpg" alt="Loading...">
+            <img src="images/home img/home4.jpg" alt="Loading...">
+            <img src="images/home img/hero2.jpg" alt="Loading...">
+
+        </div>
+        <div class="top">
+            <div class="header">
+                <img src="images/logo.png" alt="">
+                <div class="nav">
+                    <a class="active" href="#home">home</a>
+                    <a href="#page2">product</a>
+                    <a href="#page4">about-us</a>
+                    <a href="#contact-page">contact</a>
+                </div>
+                <div class="icon">
+                    <a href="https://wa.me/+918262930918"> <i class="ri-whatsapp-line"> </i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="con-left">
+                    <div class="elem">
+                        <p> Chang Mizso <br> Gives zero <br>funk.
+                        </p>
+                    </div>
+
+                    <button><a href="#Product">Product</a></button>
+                </div>
+                <div class="con-right">
+                    <div class="image">
+                        <img src="images\home right-img.jpg" alt="">
+                    </div>
+
+                    <p>
+                        "Defining Your Fashion Story. <br>
+                        Unleash Your Inner Fashionista."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page2">
+        <h1>NEW ARRIVALS</h1>
+        <div id="root">
+        </div>
+        <div class="banner">
+            <h2>Get 50% off on fashion</h2>
+            <img src="images\banner\b1.jpg" alt="">
+        </div>
+    </div>
+    <div id="page3">
+        <h1>Trending Outfits</h1>
+        <div id="root3"></div>
+    </div>
+    <div id="page4">
+        <h1>ABOUT US</h1>
+
+        <div class="heading">
+            <p>We create fashion beyond fabric.</p>
+            <div class="gif"><video src="videos/about-us.mp4" loop autoplay muted></video>
+            </div>
+        </div>
+
+        <h2 id="b1-h2">MIOZSO</h2>
+
+        <div class="b1">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbiUyMG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D"
+                alt="Loding.." srcset="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span id="s1"></span> eveniet, sint, nihil quam
+                ipsum
+                similique earum libero,explicabo. Animi,
+                voluptatem<span id="s2"></span>
+                dolor amet consectetur adipisicing elit. Deleniti blanditiis pariatur sunt tempora,
+                ex in cupiditate nihil earum eum ducimus
+                esse maxime nemo <span id="s3"></span>voluptatibus enim quis eaque fugiat aperiam Saepe, corporis.
+            </p>
+        </div>
+        <div class="b2">
+            <div class="contain">
+                <h1>Zero funks</h1>
+                <p>Lorem ipsum dolor sit amet consectetur <span id="s01"></span> adipisicing elit <span
+                        id="s02"></span>. Ea libero adipisci pouhi modi,voluptatibus,
+                    assumenda quisquam quae quod enim culpa sunt, odit cupiditate. <span id="s03"></span> Non cum itaque
+                    error sit odio tempore
+                    id nihil dignissimos placeat!span <span id="s04"></span> Perspiciatis, obcaecati.</p>
+            </div>
+            <div class="lgif">
+                <img src="https://i.pinimg.com/originals/39/f0/a3/39f0a3f15f91d0df1374ff72871ce42e.gif" alt="Loading..">
+            </div>
+        </div>
+
+        <div class="b3" id="Product">
+            <video src="videos/explore.mp4" muted loop></video>
+            <button>Feature Product</button>
+        </div>
+    </div>
+
+    <div id="contact-page">
+        <div class="upper">
+            <div class="upper-left">
+                <form action="">
+                    <h1>Get In Touch</h1>
+                    <div class="labels">
+                        <input type="text" name="name" id="" placeholder="Name :" autocomplete="name" required><br>
+                        <input type="email" name="email" id="" placeholder="Email:" autocomplete="email" required><br>
+                        <input type="tel" name="Phone" id="" pattern="[0-9]{10}" placeholder="Phone no:"
+                            autocomplete="cc-number" required><br>
+                        <button onclick="send()">Submit</button>
+
+                    </div>
+                </form>
+            </div>
+            <div class="upper-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15089.678456038766!2d74.42971229742902!3d19.001222715005383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcce716770b641%3A0xb04294c392a9e859!2sParner%2C%20Maharashtra%20414302!5e0!3m2!1sen!2sin!4v1700199497353!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="info">
+                <h2>MIZSO</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, aut reiciendis quisquam suscipit
+                    corporis minus adipisci. Velit, numquam inventore ducimus
+                    architecto dolorum quod nobis officia.</p>
+            </div>
+            <div class="links">
+                <h2>Links</h2>
+                <a href="#home"><i class="ri-arrow-right-line"></i>Home</a>
+                <a href="#page2"><i class="ri-arrow-right-line"></i>Product</a>
+                <a href="#page3"><i class="ri-arrow-right-line"></i>About-us</a>
+                <a href="#contact-page"><i class="ri-arrow-right-line"></i>Contact</a>
+            </div>
+            <div class="contact-us">
+                <h2>Address</h2>
+                <address><i class="ri-road-map-line"></i>Mizso Brand house, Parner, Ahmednagar, Mharashtra,India.
+                    414302
+                </address>
+
+            </div>
+            <div class="media">
+                <h2>Follow-us</h2>
+               <a href="" style="text-decoration: none;"> <i class="ri-facebook-box-fill" style="color:rgb(49, 42, 243)"></i></a>
+               <a href="" style="text-decoration: none;"> <i class="ri-instagram-fill" style="color:#9837A8"></i></a>
+               <a href="" style="text-decoration: none;"> <i class="ri-github-fill" style="color:rgb(124, 8, 219)"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
